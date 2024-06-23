@@ -15,11 +15,11 @@ const userSchema = new mongoose.Schema({
         required: true,
         unique: true,
     },
-    passwordHash: {
+    password: {
         type: String,
         required: true,
     },
-    avatarUrl: String,
+    // avatarUrl: String,
     }, {timestamps: true}
 );
 
